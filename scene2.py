@@ -122,7 +122,7 @@ def reshape(w, h):
    glMatrixMode(GL_MODELVIEW)
    glLoadIdentity()
 
-
+# 
 def keyboard(key, x, y):
    if key == chr(27):
        sys.exit(0)
